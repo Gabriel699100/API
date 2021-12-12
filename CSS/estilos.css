@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .titulo{
+    width: 30px;
+  }
+  .card-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #7c25a5;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat';
+  }
+  #container{
+    background-color: #a461d1;
+    margin: 8px;
+  }
+  
+  h1{
+    font-size: 2.5em;
+    margin: 3px;
+  }
+  .datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .descripcion{
+    color: #fef9ff;
+    font-size: 1.3em;
+    font-family: 'Montserrat' bold;
+  }
+  
+  button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    width: 10em;
+    height: 2em;
+    background-color: #3e1b53;
+    border: 0px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    font-family: 'Montserrat';
+  }
